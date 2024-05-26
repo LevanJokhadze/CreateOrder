@@ -1,0 +1,38 @@
+$margin: 90px;
+
+.grey-90 {
+  color: rgba(217, 217, 217, 0.9);
+}
+.mt-90 {
+  margin-top: $margin;
+}
+.mt-180 {
+  margin-top: $margin * 2;
+}
+.sidebar {
+  @media (max-height: 750px) {
+    .mt-90 {
+      margin-top: calc($margin / 2);
+    }
+    .mt-180 {
+      margin-top: $margin;
+    }
+  }
+  @media (max-height: 615px) {
+    .mt-90 {
+      margin-top: calc($margin / 4);
+    }
+    .mt-180 {
+      margin-top: calc($margin / 2);
+    }
+  }
+
+  @media (max-height: 540px) {
+    .s-mt-180 {
+      margin-top: calc($margin / 2);
+    }
+    .gap-13 {
+      gap: 6px;
+    }
+  }
+}

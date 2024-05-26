@@ -1,0 +1,123 @@
+label {
+  color: black;
+}
+
+form {
+  .row {
+    max-width: 740px;
+    div {
+      width: 360px;
+    }
+  }
+  select {
+    width: 345px !important;
+    height: 40px;
+    border: solid 2px #566ae4 !important;
+  }
+  .input {
+    width: 345px !important;
+    height: 40px;
+    border: solid 2px #566ae4 !important;
+    background-color: rgba(217, 217, 217, 0.4);
+  }
+}
+
+.dimensions {
+  width: 345px;
+  height: 40px;
+  border: solid 2px #566ae4 !important;
+  border-radius: 5px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  p {
+    font-size: 18px;
+    color: black;
+    padding: 10px;
+    margin-top: 10px;
+  }
+  input {
+    width: 79px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    text-align: center;
+    border-bottom: 2px solid black;
+    background: none;
+    border-radius: 0;
+    height: 30px;
+  }
+}
+
+.checkboxes {
+  display: flex;
+  align-items: center;
+}
+
+.checkbox {
+  width: 80px !important;
+  label {
+    padding-left: 10px;
+  }
+}
+.textarea {
+  width: 702px;
+  height: 120px;
+  text-align: left;
+  padding: 10px;
+  box-sizing: border-box;
+  vertical-align: top;
+  resize: none;
+  border: solid 2px #566ae4;
+  background-color: rgba(217, 217, 217, 0.4);
+}
+
+.file {
+  width: 703px;
+  height: 241px;
+  border: 3px dashed #24303f66;
+  border-radius: 7px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  cursor: pointer;
+
+  input {
+    opacity: 0;
+    position: absolute;
+  }
+
+  .icon {
+    img {
+      width: 32px;
+      height: 32px;
+    }
+  }
+  .text {
+    .darker {
+      font-size: 15px;
+      color: #24303f;
+    }
+    .fader {
+      font-size: 12px;
+      opacity: 50%;
+    }
+    p {
+      color: black;
+      text-align: center;
+    }
+  }
+
+  .browse {
+    button {
+      width: 312px;
+      height: 37px;
+      font-size: 14px;
+      color: #24303f;
+      border-radius: 4px;
+      border: 2px solid rgba(86, 106, 228, 0.5);
+    }
+  }
+}

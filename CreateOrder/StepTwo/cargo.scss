@@ -1,0 +1,40 @@
+.title {
+  color: black;
+}
+
+.outer {
+  width: 100% !important;
+  display: flex;
+  justify-content: center;
+}
+
+.active-img {
+  background-color: #566ae4 !important;
+}
+
+.bd {
+  border: 2px solid #566ae4;
+}
+
+.imgs {
+  div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #d9d9d966;
+    width: 256px;
+    height: 130px;
+    border-radius: 5px;
+    margin-right: 20px;
+    p {
+      padding: 5px;
+      color: black;
+    }
+
+    img {
+      width: 80px;
+      height: 80px;
+    }
+  }
+}
